@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Đức Thành Web Design</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 20px 0;
+        }
+        ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+        .content-section {
+            display: none;
+        }
+        .content-section.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Đức Thành Web Design</h1>
+
+    <ul>
+        <li><a href="#" onclick="showSection('home')">Trang chủ</a></li>
+        <li><a href="#" onclick="showSection('info')">Thông tin</a></li>
+        <li><a href="#" onclick="showSection('service')">Dịch vụ</a></li>
+    </ul>
+
+    <div id="home" class="content-section active">
+        <h2>Thiết kế website chuyên nghiệp</h2>
+        <p>Chúng tôi cung cấp các dịch vụ thiết kế website chuyên nghiệp, giá cả hợp lý theo yêu cầu khách hàng.</p>
+
+        <h3>Đăng ký để nhận thông báo mới từ chúng tôi</h3>
+        <form>
+            <input type="email" placeholder="Nhập Email...">
+            <button type="submit">Đăng ký</button>
+        </form>
+
+        <h3>Ngôn ngữ HTML5</h3>
+        <p>HTML5 là ngôn ngữ mới của trang web hiện đại.</p>
+
+        <h3>Ngôn ngữ CSS3</h3>
+        <p>CSS3 giúp tạo cấu trúc, tạo kiểu và định dạng các trang web hiện đại.</p>
+
+        <h3>Thiết kế đồ họa</h3>
+        <p>Thiết kế đồ họa là yếu tố không thể thiếu trong thiết kế website chuyên nghiệp.</p>
+    </div>
+
+    <div id="info" class="content-section">
+        <h2>Về chúng tôi</h2>
+        <p>Chúng tôi luôn lắng nghe nhu cầu khách hàng và tạo ra những giải pháp tối ưu nhất để khách hàng thành công.</p>
+        <p>Với hơn 10 năm kinh nghiệm trong thiết kế website doanh nghiệp, thương mại điện tử và marketing online.</p>
+
+        <h2>Dịch vụ của chúng tôi</h2>
+        <p>Chúng tôi cam kết cung cấp dịch vụ tin cậy, chuyên nghiệp, giá phải chăng.</p>
+
+        <p>Đức Thành Web Design, Copyright © 2025</p>
+    </div>
+
+    <div id="service" class="content-section">
+        <h2>Các dịch vụ</h2>
+        <ul>
+            <li><strong>Thiết kế Website</strong><br>
+                Tạo website chuyên nghiệp cho cá nhân, doanh nghiệp.<br>
+                Giá: $1,000 - $3,000
+            </li>
+            <li><strong>Bảo trì Website</strong><br>
+                Dịch vụ bảo trì website chuyên nghiệp.<br>
+                Giá: $250 mỗi tháng
+            </li>
+            <li><strong>Web Hosting</strong><br>
+                Cung cấp hosting chất lượng cao.<br>
+                Giá: $25 mỗi tháng
+            </li>
+        </ul>
